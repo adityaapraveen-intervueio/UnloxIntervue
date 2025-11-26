@@ -42,7 +42,7 @@ const stats = [
     value: "78%",
     label: "Interview anxiety level decreased",
     color: "text-orange-500",
-    prefix: "to",
+    prefix: "",
   },
 ]
 
