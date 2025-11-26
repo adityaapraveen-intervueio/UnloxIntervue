@@ -26,7 +26,7 @@ export function ScrollingBanner() {
     return () => cancelAnimationFrame(animationId)
   }, [])
 
-  const text = "TEXT SCROLLING GOES HERE"
+  const text = "Unlock Placement Confidence with mock interviews"
   const items = Array(10).fill(text)
 
   return (
