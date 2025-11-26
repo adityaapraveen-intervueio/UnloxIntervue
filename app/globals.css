@@ -126,8 +126,8 @@
 }
 
 .logo-pill {
-  height: 32px;
-  max-width: 120px;
+  height: 40px;
+  max-width: 150px;
   object-fit: contain;
   /* uncomment if you want them white-ish on the orange bg:
   filter: brightness(0) invert(1);

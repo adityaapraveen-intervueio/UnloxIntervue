@@ -4,6 +4,7 @@ interface Company {
   name: string
   logo: string
   logoStyle: string
+  logoSrc?: string
   description: string
   skills: string[]
   isGoogle?: boolean

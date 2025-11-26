@@ -47,7 +47,13 @@ export function HeroSection() {
                 alt="Unlox popup"
                 className="w-37 h-10 object-contain"
               />
-              <span className="text-gray-800">X</span>
+              <span className="text-black-800">
+                <img
+                  src="/imageslogos/X.png"
+                  alt="Unlox popup"
+                  className="w-10 h-10 ml-1 object-contain"
+                />
+              </span>
               <div className="flex items-center gap-1">
                 {/* <div className="w-5 h-5 bg-blue-500 rounded flex items-center justify-center"> */}
                 {/* <span className="text-white text-xs font-bold">%</span> */}
@@ -84,7 +90,7 @@ export function HeroSection() {
             </div>
 
             <h1 className="text-7.5xl lg:text-7xl font-bold text-gray-900 leading-tight">
-              land your dream job with the help
+              Land your dream job with the help
               <br />
               of your future
               <br />

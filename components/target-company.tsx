@@ -13,6 +13,7 @@ const faangCompanies = [
   {
     name: "Google",
     logo: "G",
+    logoSrc: "/imageslogos/Google-logo.png",
     logoStyle: "bg-transparent",
     isGoogle: true,
     description:
@@ -22,6 +23,7 @@ const faangCompanies = [
   {
     name: "Apple",
     logo: "🍎",
+    logoSrc: "/imageslogos/Apple-Logo%202.png",
     logoStyle: "text-2xl",
     description:
       "Apple's hiring process for technical roles involves online assessments, on-site assessments, and 4 to 5 interviews. Resume screening, coding assessments on a web editor, and oral conversation rounds covering technical assessment with machine design and behavioral related discussions, and fullstack roles.",
@@ -30,6 +32,7 @@ const faangCompanies = [
   {
     name: "Meta",
     logo: "∞",
+    logoSrc: "/imageslogos/Meta-logo.png",
     logoStyle: "bg-[#0668E1] text-white",
     description:
       "Meta's process starts with recruiter screen, with 2-4 interviews covering coding, system assessments on for 6-12 rounds. Candidates face specific skills for senior roles interview types cover: DSA, HLD with senior with more focus on Machine Coding, problem solving, design, communication skills, and leadership and aptitude abilities.",
@@ -38,6 +41,7 @@ const faangCompanies = [
   {
     name: "Netflix",
     logo: "N",
+    logoSrc: "/imageslogos/Netflix_2015_logo%202.png",
     logoStyle: "bg-[#E50914] text-white",
     description:
       "Netflix's hiring process for technical roles involves online assessments, and 4 rounds. Candidates face specific skills for senior roles interview types cover: DSA, Front-end work, System Design, LLD, design. with three prerequisites: Day to day work simulation, problem-solving ability, and culture fit assessment.",
@@ -46,6 +50,7 @@ const faangCompanies = [
   {
     name: "Amazon",
     logo: "a",
+    logoSrc: "/imageslogos/Amazon_logo%202.png",
     logoStyle: "bg-[#FF9900] text-white font-bold",
     description:
       "Amazon's hiring process for technical roles involves online assessments, on-site assessments and 4-5 interview. Focus on LP's, leadership principals. Candidates face specific skills for senior roles. Interview types cover: DSA, Front-end work, System Design, LLD, design, communication skills, and aptitude and leadership abilities.",
@@ -89,6 +94,7 @@ const productCompanies = [
   {
     name: "Flipkart",
     logo: "F",
+    logoSrc: "/imageslogos/flipkart-logo.png",
     logoStyle: "bg-[#FFEB3B] text-[#2874F0]",
     description:
       "Flipkart's hiring process for technical roles involves online assessments covering Includes 2-3 Rounds: 2 technical rounds + 1 HM round. Candidates face specific skills for senior roles. Interview types cover: DSA, LLD, problem-solving, design, system.",
@@ -102,6 +108,7 @@ const itCompanies = [
   {
     name: "TCS",
     logo: "tcs",
+    logoSrc: "/imageslogos/tcs-logo.png",
     logoStyle: "text-[#1a1a2e] font-bold text-lg",
     isText: true,
     description:
@@ -120,6 +127,7 @@ const itCompanies = [
   {
     name: "Infosys",
     logo: "Infosys",
+    logoSrc: "/imageslogos/infosys-logo.png",
     logoStyle: "text-[#0070AD] font-bold text-lg",
     isText: true,
     description:

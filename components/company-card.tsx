@@ -4,6 +4,7 @@ interface CompanyCardProps {
   name: string
   logo: string
   logoStyle: string
+  logoSrc?: string
   description: string
   skills: string[]
   isGoogle?: boolean
@@ -15,6 +16,7 @@ interface CompanyCardProps {
 export function CompanyCard({
   name,
   logo,
+  logoSrc,
   logoStyle,
   description,
   skills,
@@ -24,7 +26,7 @@ export function CompanyCard({
   viewAllCount,
 }: CompanyCardProps) {
   return (
-    <div className="bg-white rounded-xl p-5 border border-gray-100 shadow-sm">
+    <div className="bg-white rounded-xl p-5 border border-gray-100 shadow-sm flex flex-col h-full">
       {/* Logo and Name */}
       <div className="flex items-center gap-3 mb-3">
         {isGoogle ? (
@@ -33,6 +35,8 @@ export function CompanyCard({
               <span className="text-[#4285F4]">G</span>
             </span>
           </div>
+        ) : logoSrc ? (
+          <img src={logoSrc} alt={name} className="h-8 w-auto object-contain" />
         ) : isText ? (
           <span className={logoStyle}>{logo}</span>
         ) : (
@@ -67,7 +71,7 @@ export function CompanyCard({
       )}
 
       {/* CTA Button */}
-      <button className="w-full py-2.5 text-sm font-medium text-[#1a1a2e] border border-[#1a1a2e] rounded-lg hover:bg-[#1a1a2e] hover:text-white transition-colors">
+      <button className="mt-auto w-full py-2.5 text-sm font-medium text-[#1a1a2e] border border-[#1a1a2e] rounded-lg hover:bg-[#1a1a2e] hover:text-white transition-colors">
         Schedule Interview now
       </button>
     </div>

@@ -1,10 +1,34 @@
 import { Play, Users, Target, TrendingDown } from "lucide-react"
 
 const testimonials = [
-  { name: "Bharat", handle: "@bharat_dev", platform: "youtube", bgColor: "bg-red-500" },
-  { name: "Shyprinth", handle: "@shyprinth", platform: "youtube", bgColor: "bg-orange-500" },
-  { name: "Yogesh", handle: "@yogesh_code", platform: "youtube", bgColor: "bg-green-600" },
-  { name: "Sharanya", handle: "@sharanya", platform: "instagram", bgColor: "bg-pink-500" },
+  {
+    name: "Bharat",
+    handle: "@bharat_dev",
+    platform: "youtube",
+    bgColor: "bg-red-500",
+    image: "https://dersyb7nfifdf.cloudfront.net/dev/32/mock-interview-images/2.png",
+  },
+  {
+    name: "Shyprinth",
+    handle: "@shyprinth",
+    platform: "youtube",
+    bgColor: "bg-red-500",
+    image: "https://dersyb7nfifdf.cloudfront.net/dev/32/mock-interview-images/3.png",
+  },
+  {
+    name: "Yogesh",
+    handle: "@yogesh_code",
+    platform: "youtube",
+    bgColor: "bg-red-600",
+    image: "https://dersyb7nfifdf.cloudfront.net/dev/32/mock-interview-images/4.png",
+  },
+  {
+    name: "Sharanya",
+    handle: "@sharanya",
+    platform: "instagram",
+    bgColor: "bg-red-500",
+    image: "https://dersyb7nfifdf.cloudfront.net/dev/32/mock-interview-images/5.png",
+  },
 ]
 
 const filters = ["All stories", "Students", "Product roles", "IT roles", "Working aspirants"]
@@ -39,21 +63,31 @@ export function SuccessStories() {
           {filters.map((filter, idx) => (
             <button
               key={filter}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                idx === 0 ? "bg-[#1a1a2e] text-white" : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-              }`}
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${idx === 0 ? "bg-[#1a1a2e] text-white" : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                }`}
             >
               {filter}
             </button>
           ))}
         </div>
 
+        {/* Featured video */}
+        {/* <div className="mb-10">
+          <div className="relative rounded-2xl overflow-hidden shadow-lg border border-gray-200 max-w-4xl mx-auto aspect-video">
+            <video
+              src="https://dersyb7nfifdf.cloudfront.net/dev/32/mock-interview-videos/3.mp4"
+              controls
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div> */}
+
         {/* Testimonial Cards */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
           {testimonials.map((person) => (
             <div key={person.name} className="relative rounded-2xl overflow-hidden aspect-[4/5] group cursor-pointer">
               <img
-                src={`/.jpg?height=400&width=300&query=${person.name} professional headshot`}
+                src={person.image}
                 alt={person.name}
                 className="w-full h-full object-cover"
               />
