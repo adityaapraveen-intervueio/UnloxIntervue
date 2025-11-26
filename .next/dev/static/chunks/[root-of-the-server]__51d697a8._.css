@@ -548,6 +548,18 @@
     left: calc(var(--spacing) * 3);
   }
 
+  .left-78 {
+    left: calc(var(--spacing) * 78);
+  }
+
+  .left-80 {
+    left: calc(var(--spacing) * 80);
+  }
+
+  .left-82 {
+    left: calc(var(--spacing) * 82);
+  }
+
   .left-88 {
     left: calc(var(--spacing) * 88);
   }

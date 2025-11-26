@@ -81,7 +81,7 @@ export function HeroSection() {
                 className="w-50 h-50 object-contain"
               />
             </div>
-            <div className="absolute top-33 left-88 w-30 h-30 rounded-lg flex items-center justify-center -rotate-20 z-10">
+            <div className="absolute top-33 left-80 w-30 h-30 rounded-lg flex items-center justify-center -rotate-20 z-10">
               <img
                 src="/imageslogos/intervue-popup.png"
                 alt="Unlox popup"
@@ -90,13 +90,13 @@ export function HeroSection() {
             </div>
 
             <h1 className="text-7.5xl lg:text-7xl font-bold text-gray-900 leading-tight">
-              Land your dream job with the help
+              Land your dream role with mock
               <br />
-              of your future
+              interviews from real<span className="relative z-10 text-blue-500 text-1xl"> FAANG engineers.</span>
               <br />
               <span className="relative inline-block">
-                <span className="relative z-10 text-blue-500">colleagues.</span>
-                <span className="absolute inset-0 border-2 border-dashed border-blue-400 rounded-lg -m-2"></span>
+                
+                {/* <span className="absolute inset-0 border-2 border-dashed border-blue-400 rounded-lg -m-2"></span> */}
               </span>
             </h1>
           </div>

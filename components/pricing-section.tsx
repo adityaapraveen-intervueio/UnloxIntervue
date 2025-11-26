@@ -4,8 +4,8 @@ const pricingPlans = [
   {
     title: "IT Services Companies",
     price: 1400,
-    originalPrice: 2800,
-    discount: "50% OFF",
+    originalPrice: 1750,
+    discount: "20% OFF",
     companies: [
       { name: "TCS", logo: "tcs" },
       { name: "Infosys", logo: "infosys" },
@@ -25,8 +25,8 @@ const pricingPlans = [
   {
     title: "HyperGrowth Companies",
     price: 1700,
-    originalPrice: 3400,
-    discount: "50% OFF",
+    originalPrice: 2125,
+    discount: "20% OFF",
     companies: [
       { name: "Groww", logo: "groww" },
       { name: "Zomato", logo: "zomato" },
@@ -45,8 +45,8 @@ const pricingPlans = [
   {
     title: "FAANG Companies",
     price: 2400,
-    originalPrice: 4800,
-    discount: "50% OFF",
+    originalPrice: 3000,
+    discount: "20% OFF",
     companies: [
       { name: "Meta", logo: "meta" },
       { name: "Apple", logo: "apple" },

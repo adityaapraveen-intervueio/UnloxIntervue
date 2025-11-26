@@ -214,7 +214,7 @@ function HeroSection() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "absolute top-33 left-88 w-30 h-30 rounded-lg flex items-center justify-center -rotate-20 z-10",
+                                        className: "absolute top-33 left-80 w-30 h-30 rounded-lg flex items-center justify-center -rotate-20 z-10",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: "/imageslogos/intervue-popup.png",
                                             alt: "Unlox popup",
@@ -232,38 +232,29 @@ function HeroSection() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                         className: "text-7.5xl lg:text-7xl font-bold text-gray-900 leading-tight",
                                         children: [
-                                            "Land your dream job with the help",
+                                            "Land your dream role with mock",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/components/hero-section.tsx",
                                                 lineNumber: 94,
                                                 columnNumber: 15
                                             }, this),
-                                            "of your future",
+                                            "interviews from real",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "relative z-10 text-blue-500 text-1xl",
+                                                children: " FAANG engineers."
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/hero-section.tsx",
+                                                lineNumber: 95,
+                                                columnNumber: 35
+                                            }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/components/hero-section.tsx",
                                                 lineNumber: 96,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "relative inline-block",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "relative z-10 text-blue-500",
-                                                        children: "colleagues."
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/hero-section.tsx",
-                                                        lineNumber: 98,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "absolute inset-0 border-2 border-dashed border-blue-400 rounded-lg -m-2"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/hero-section.tsx",
-                                                        lineNumber: 99,
-                                                        columnNumber: 17
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
+                                                className: "relative inline-block"
+                                            }, void 0, false, {
                                                 fileName: "[project]/components/hero-section.tsx",
                                                 lineNumber: 97,
                                                 columnNumber: 15
@@ -669,8 +660,8 @@ const pricingPlans = [
     {
         title: "IT Services Companies",
         price: 1400,
-        originalPrice: 2800,
-        discount: "50% OFF",
+        originalPrice: 1750,
+        discount: "20% OFF",
         companies: [
             {
                 name: "TCS",
@@ -705,8 +696,8 @@ const pricingPlans = [
     {
         title: "HyperGrowth Companies",
         price: 1700,
-        originalPrice: 3400,
-        discount: "50% OFF",
+        originalPrice: 2125,
+        discount: "20% OFF",
         companies: [
             {
                 name: "Groww",
@@ -737,8 +728,8 @@ const pricingPlans = [
     {
         title: "FAANG Companies",
         price: 2400,
-        originalPrice: 4800,
-        discount: "50% OFF",
+        originalPrice: 3000,
+        discount: "20% OFF",
         companies: [
             {
                 name: "Meta",
@@ -889,10 +880,10 @@ function LogoBanner() {
             className: "max-w-7xl mx-auto px-4 space-y-4",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex items-center justify-center text-white/90 text-sm",
+                    className: "flex items-center justify-center text-white/90 text-sm text-2xl",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "font-semibold",
-                        children: "Visionaries grow with Intervue"
+                        className: "font-semibold text-2xl",
+                        children: "Our candidates got placed in top companies"
                     }, void 0, false, {
                         fileName: "[project]/components/logo-banner.tsx",
                         lineNumber: 32,

@@ -28,8 +28,8 @@ export function LogoBanner() {
   return (
     <div className="bg-gradient-to-r from-[#ff6b5b] to-[#ff836d] py-4">
       <div className="max-w-7xl mx-auto px-4 space-y-4">
-        <div className="flex items-center justify-center text-white/90 text-sm">
-          <span className="font-semibold">Visionaries grow with Intervue</span>
+        <div className="flex items-center justify-center text-white/90 text-sm text-2xl">
+          <span className="font-semibold text-2xl">Our candidates got placed in top companies</span>
         </div>
 
         <div className="relative overflow-hidden rounded-xl bg-white/10 border border-white/20 backdrop-blur">
