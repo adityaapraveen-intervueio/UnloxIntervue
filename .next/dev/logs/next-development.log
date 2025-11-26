@@ -1,156 +1,58 @@
-[00:00:00.469] Server  LOG     
-[00:00:00.469] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:00.470] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
-
-[00:00:00.470] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:00.470] Server  LOG     
-[00:00:00.471] Server  LOG        The following mandatory changes were made to your tsconfig.json:
-
-[00:00:00.471] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
-[00:00:00.471] Server  LOG     
-[00:00:00.579] Server  LOG      ✓ Ready in 390ms
-[00:00:14.424] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:14.424] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:14.424] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764140700135}
-[00:05:38.131] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? srcset srcSet
-[00:05:38.131] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
-[00:05:40.535] Server  ERROR   Invalid DOM property `srcset`. Did you mean `srcSet`?
-[00:05:48.665] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
-[00:05:52.698] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
-[00:07:07.356] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:07:07.356] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:07:07.356] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764141113067}
-[00:08:15.901] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:08:15.902] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:08:15.902] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764141181614}
-[00:10:27.765] Browser WARN    Image with src "http://localhost:3000/imageslogos/intervue-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:13:01.676] Server  ERROR    ⨯ ReferenceError: Image is not defined
-[00:13:01.934] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
-[00:13:04.725] Browser ERROR   ./components/hero-section.tsx:23:13
+[00:00:00.677] Server  LOG      ✓ Ready in 428ms
+[00:00:25.861] Browser WARN    Image with src "http://localhost:3000/imageslogos/intervue-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:26.276] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:26.276] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:26.276] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764143973223}
+[00:17:01.466] Browser ERROR   ./components/pricing-section.tsx:10:29
 Parsing ecmascript source code failed
-  21 |         </svg> */}
-  22 |         <Image>
-> 23 |       </div>
+   8 |     discount: "50% OFF",
+   9 |     companies: [
+> 10 |       { name: "TCS", logo:  },
+     |                             ^
+  11 |       { name: "Infosys", logo: "infosys" },
+  12 |       { name: "Accenture", logo: "accenture" },
+  13 |       { name: "Wipro", logo: "wipro" },
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/pricing-section.tsx
+    ./app/page.tsx
+[00:21:40.569] Browser ERROR   ./components/company-logo.tsx:10:14
+Parsing ecmascript source code failed
+   8 |   const logoStyles: Record<string, React.ReactNode> = {
+   9 |     tcs: <img src="/imageslogos/tcs-logo.png" alt="TCS" className="h-6 w-auto" />,
+> 10 |     infosys: ,
+     |              ^
+  11 |     accenture: <span className="text-sm font-bold text-gray-800">accenture</span>,
+  12 |     wipro: (
+  13 |       <div className="flex items-center gap-1">
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/company-logo.tsx
+    ./components/pricing-card.tsx
+    ./components/pricing-section.tsx
+    ./app/page.tsx
+[00:28:04.465] Browser ERROR   ./components/company-logo.tsx:20:13
+Parsing ecmascript source code failed
+  18 |     meta: <img src="/imageslogos/Meta-logo.png" alt="META" className="h-6 w-auto" />,
+  19 |     apple: <img src="/imageslogos/Apple-Logo 2.png" alt="APPLE" className="h-6 w-auto" />,
+> 20 |     amazon: ,
      |             ^
-> 24 |
-     | ^
-> 25 |       <div className="relative max-w-7xl mx-auto px-6 py-12">
-     | ^^^^^^^
-  26 |         {/* Partnership Badge */}
-  27 |         <div className="flex justify-center mb-8">
-  28 |           <div className="bg-white rounded-full px-6 py-3 shadow-lg flex items-center gap-4">
-
-Expected '</', got 'jsx text (
-
-      )'
-
-Import trace:
-  Server Component:
-    ./components/hero-section.tsx
-    ./app/page.tsx
-[00:13:08.020] Server  LOG      ✓ Compiled in 44ms
-[00:13:09.385] Browser WARN    Image with src "http://localhost:3000/imageslogos/intervue-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:13:09.487] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:13:09.487] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:13:09.487] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764141475199}
-[00:13:19.377] Server  ERROR    ⨯ ReferenceError: Image is not defined
-[00:13:19.793] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
-[00:13:32.137] Server  ERROR    ⨯ ReferenceError: Image is not defined
-[00:13:32.721] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
-[00:13:38.393] Browser WARN    Image with src "http://localhost:3000/imageslogos/intervue-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:13:38.393] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:13:38.393] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:13:38.393] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764141504104}
-[00:21:32.899] Server  ERROR    ⨯ ReferenceError: hei is not defined
-[00:21:33.203] Browser ERROR   uncaughtError: ReferenceError: hei is not defined
-[00:21:33.745] Server  ERROR    ⨯ ReferenceError: height is not defined
-[00:21:34.488] Browser ERROR   uncaughtError: ReferenceError: height is not defined
-[00:21:36.369] Server  LOG      ✓ Compiled in 68ms
-[00:21:36.464] Server  ERROR    ⨯ ReferenceError: min is not defined
-[00:21:37.004] Browser ERROR   uncaughtError: ReferenceError: min is not defined
-[00:21:38.734] Server  ERROR    ⨯ ReferenceError: minHeight is not defined
-[00:21:39.249] Browser ERROR   uncaughtError: ReferenceError: minHeight is not defined
-[00:21:39.814] Browser ERROR   ./components/hero-section.tsx:11:7
-Parsing ecmascript source code failed
-   9 |         backgroundRepeat: "no-repeat",
-  10 |         minHeight:
-> 11 |       }}
-     |       ^
-  12 |     >
-  13 |       {/* Grid Pattern Background */}
-  14 |       {/* <div
+  21 |     netflix: <span className="text-sm font-bold text-red-600">NETFLIX</span>,
+  22 |     google: (
+  23 |       <span className="text-sm font-bold">
 
 Expression expected
 
 Import trace:
   Server Component:
-    ./components/hero-section.tsx
+    ./components/company-logo.tsx
+    ./components/pricing-card.tsx
+    ./components/pricing-section.tsx
     ./app/page.tsx
-[00:21:45.038] Browser ERROR   ./components/hero-section.tsx:10:22
-Parsing ecmascript source code failed
-   8 |         backgroundPosition: "center",
-   9 |         backgroundRepeat: "no-repeat",
-> 10 |         minHeight:200px
-     |                      ^
-  11 |       }}
-  12 |     >
-  13 |       {/* Grid Pattern Background */}
-
-Identifier cannot follow number
-
-Import trace:
-  Server Component:
-    ./components/hero-section.tsx
-    ./app/page.tsx
-[00:21:48.103] Browser ERROR   ./components/hero-section.tsx:10:22
-Parsing ecmascript source code failed
-   8 |         backgroundPosition: "center",
-   9 |         backgroundRepeat: "no-repeat",
-> 10 |         minHeight:200px"
-     |                      ^
-  11 |       }}
-  12 |     >
-  13 |       {/* Grid Pattern Background */}
-
-Identifier cannot follow number
-
-Import trace:
-  Server Component:
-    ./components/hero-section.tsx
-    ./app/page.tsx
-[00:21:50.857] Browser WARN    Image with src "http://localhost:3000/imageslogos/intervue-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:21:50.857] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:21:50.857] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:21:50.857] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764141996568}
-[00:35:28.468] Browser ERROR   ./components/hero-section.tsx:106:5
-Parsing ecmascript source code failed
-  104 |         </div>
-  105 |       </div>
-> 106 |     </section>
-      |     ^
-  107 |   )
-  108 | }
-  109 |
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/hero-section.tsx
-    ./app/page.tsx
-[00:35:28.469] Browser ERROR   ./components/hero-section.tsx:106:6
-Parsing ecmascript source code failed
-  104 |         </div>
-  105 |       </div>
-> 106 |     </section>
-      |      ^^^^^^^^^
-  107 |   )
-  108 | }
-  109 |
-
-Unterminated regexp literal
-
-Import trace:
-  Server Component:
-    ./components/hero-section.tsx
-    ./app/page.tsx
+[00:40:08.817] Server  LOG      ✓ Compiled in 26ms

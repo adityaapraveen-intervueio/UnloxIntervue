@@ -7,7 +7,7 @@ export function HeroSection() {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        minHeight: "200px",
+        minHeight: "70px",
       }}
     >
       {/* Grid Pattern Background */}
@@ -35,9 +35,9 @@ export function HeroSection() {
         {/* Partnership Badge */}
         <div className="flex justify-center mb-8">
           <div
-            className="rounded-full p-[1px]"
+            className="rounded-full p-[2.5px]"
             style={{
-              background: "linear-gradient(90deg, #000 50%, #1e90ff 50%)",
+              background: "linear-gradient(90deg, #000000 0%, #ffffffff 45%, #ffffffff 50%, #ffffffff 55%, #1e90ff 100%)",
             }}
           >
             <div className="bg-white rounded-full px-6 py-3 shadow-lg flex items-center gap-4">
@@ -83,7 +83,7 @@ export function HeroSection() {
               />
             </div>
 
-            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+            <h1 className="text-7.5xl lg:text-7xl font-bold text-gray-900 leading-tight">
               Lorem ipsum
               <br />
               heading text
@@ -99,7 +99,7 @@ export function HeroSection() {
           <div className="relative flex justify-center lg:justify-end">
             <div className="relative">
               {/* Blue circle background */}
-              <div className="absolute right-0 top-1/2 -translate-y-1/2 w-64 h-64 lg:w-80 lg:h-80 bg-blue-500 rounded-full -z-10"></div>
+              <div className="absolute right-0 top-1/2 -translate-y-1/2 w-74 h-74 lg:w-80 lg:h-80 bg-blue-500 rounded-full -z-10"></div>
               {/* Woman with laptop image placeholder */}
               <img
                 src="/imageslogos/hero-image.png"

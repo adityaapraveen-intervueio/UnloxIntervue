@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function Header() {
   return (
-    <header className="flex items-center justify-between px-6 py-4 bg-white">
+    <header className="flex items-center justify-between px-20 py-4 bg-white">
       <div className="flex items-center">
         <Image
           src="/imageslogos/intervue-logo.png"

@@ -14,11 +14,13 @@ interface PricingCardProps {
 export function PricingCard({ title, price, originalPrice, discount, companies, features, popular }: PricingCardProps) {
   return (
     <div
-      className={`relative rounded-2xl border ${popular ? "border-gray-200 shadow-lg" : "border-gray-200"} bg-white overflow-hidden`}
+      className={`relative rounded-2xl border bg-white overflow-hidden ${
+        popular ? "border-[1.5px] border-gray-900 shadow-lg" : "border-gray-200"
+      }`}
     >
       {/* Most Popular Badge */}
       {popular && (
-        <div className="bg-[#1a1a2e] text-white text-xs font-semibold py-2 px-4 text-center tracking-wider">
+        <div className="bg-[#2f2f2f] text-white text-xs font-semibold py-2 px-4 text-left tracking-wider">
           MOST POPULAR
         </div>
       )}
@@ -28,11 +30,13 @@ export function PricingCard({ title, price, originalPrice, discount, companies, 
         <h3 className="text-gray-800 font-medium mb-4">{title}</h3>
 
         {/* Price */}
-        <div className="flex items-baseline gap-2 mb-1">
+        <div className="flex items-end gap-3 mb-6">
           <span className="text-4xl font-bold text-gray-900">₹{price}</span>
-          <span className="text-green-500 font-semibold text-sm">{discount}</span>
+          <div className="flex flex-col leading-tight">
+            <span className="text-blue-600 font-semibold text-sm">{discount}</span>
+            <span className="text-gray-400 text-sm line-through">₹{originalPrice}</span>
+          </div>
         </div>
-        <div className="text-gray-400 text-sm line-through mb-6">₹{originalPrice}</div>
 
         {/* Company Logos */}
         <div className="flex flex-wrap gap-4 items-center mb-6 min-h-[60px]">

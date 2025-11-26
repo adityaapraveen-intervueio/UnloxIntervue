@@ -67,8 +67,15 @@ const pricingPlans = [
 
 export function PricingSection() {
   return (
-    <section className="py-16 px-6 bg-white">
-      <div className="max-w-6xl mx-auto">
+    <section
+      className="relative py-16 px-6"
+      style={{
+        backgroundImage: "url('/imageslogos/background-grids.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <div className="relative max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-6">
           {pricingPlans.map((plan, index) => (
             <PricingCard key={index} {...plan} />
