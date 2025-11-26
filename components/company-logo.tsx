@@ -18,8 +18,8 @@ export function CompanyLogo({ name, logo }: CompanyLogoProps) {
     meta: <img src="/imageslogos/Meta-logo.png" alt="META" className="h-6 ml-4 w-auto m-1" />,
     apple: <img src="/imageslogos/Apple-Logo 2.png" alt="APPLE" className="h-6 w-auto m-1" />,
     amazon: <img src="/imageslogos/Amazon_logo 2.png" alt="AMAZON" className="h-6 w-auto m-1" />,
-    netflix: <img src="/imageslogos/Netflix_2015_logo 2.png" alt="NETFLIX" className="h-6 ml-15 w-auto m-1" />,
-    google: <img src="/imageslogos/Google-logo.png" alt="GOOGLE" className="h-6 w-auto m-1" />,
+    netflix: <img src="/imageslogos/Netflix_2015_logo 2.png" alt="NETFLIX" className="h-6 ml-15 w-auto " />,
+    google: <img src="/imageslogos/Google-logo.png" alt="GOOGLE" className="h-6 w-auto " />,
   }
 
   return (

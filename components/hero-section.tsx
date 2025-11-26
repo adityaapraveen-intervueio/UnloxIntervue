@@ -50,15 +50,15 @@ export function HeroSection() {
               <span className="text-gray-800">X</span>
               <div className="flex items-center gap-1">
                 {/* <div className="w-5 h-5 bg-blue-500 rounded flex items-center justify-center"> */}
-                  {/* <span className="text-white text-xs font-bold">%</span> */}
-                  
+                {/* <span className="text-white text-xs font-bold">%</span> */}
+
                 {/* </div> */}
                 {/* <span className="font-semibold text-gray-800">UNLOX</span> */}
                 <img
-                src="/imageslogos/unlox-logo.png"
-                alt="Unlox popup"
-                className="w-40 h-10 object-contain"
-              />
+                  src="/imageslogos/unlox-logo.png"
+                  alt="Unlox popup"
+                  className="w-40 h-10 object-contain"
+                />
               </div>
             </div>
           </div>
@@ -68,14 +68,14 @@ export function HeroSection() {
           {/* Left Content */}
           <div className="relative">
             {/* Floating Icons */}
-            <div className="absolute top-7  left-2 w-30 h-30 rounded-lg flex items-center justify-center rotate-12 z-10">
+            <div className="absolute top-10  left-2 w-30 h-30 rounded-lg flex items-center justify-center rotate-12 z-10">
               <img
                 src="/imageslogos/unlox-popup.png"
                 alt="Unlox popup"
                 className="w-50 h-50 object-contain"
               />
             </div>
-            <div className="absolute top-24 left-48 w-30 h-30 rounded-lg flex items-center justify-center -rotate-6 z-10">
+            <div className="absolute top-33 left-88 w-30 h-30 rounded-lg flex items-center justify-center -rotate-20 z-10">
               <img
                 src="/imageslogos/intervue-popup.png"
                 alt="Unlox popup"
@@ -84,12 +84,12 @@ export function HeroSection() {
             </div>
 
             <h1 className="text-7.5xl lg:text-7xl font-bold text-gray-900 leading-tight">
-              Lorem ipsum
+              land your dream job with the help
               <br />
-              heading text
+              of your future
               <br />
               <span className="relative inline-block">
-                <span className="relative z-10 text-blue-500">highlight.</span>
+                <span className="relative z-10 text-blue-500">colleagues.</span>
                 <span className="absolute inset-0 border-2 border-dashed border-blue-400 rounded-lg -m-2"></span>
               </span>
             </h1>

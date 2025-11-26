@@ -47,7 +47,7 @@ export function PricingCard({ title, price, originalPrice, discount, companies, 
 
         {/* Book a Demo Button */}
         <button className="w-full bg-[#1a1a2e] text-white py-3 rounded-lg font-medium hover:bg-[#2a2a3e] transition-colors mb-6">
-          Book a Demo
+          Buy Now
         </button>
 
         {/* Features */}
